@@ -42,6 +42,6 @@ Verification
 
 Step 3) Confirm the successful creation of tables by running a SELECT statement for each table.
 Verify the correctness of data import by running additional SELECT statements to check the imported data.
-Address any discrepancies or errors encountered during the verification proces
+Address any discrepancies or errors encountered during the verification process
 
 Contributors:  Michael Elkabas and Heidi Chang
