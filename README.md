@@ -26,5 +26,21 @@ Note: Remember to specify the data types, primary keys, foreign keys, and other 
 Verify that each table has the correct data by running a SELECT statement for each.
 Our ERD:https://app.quickdatabasediagrams.com/#/d/IN5CRU
 
+For the pipeline, we performed the following series of steps: 
+Step 1) Data Engineering
+
+Design and create the database schema based on an Entity Relationship Diagram (ERD).
+Define tables with appropriate columns, data types, primary keys, and foreign keys.
+Ensure data integrity by enforcing constraints such as NOT NULL and defining value lengths for columns.
+Data Import
+
+Step 2) Prepare CSV files corresponding to each table.
+using pgAdmin 4 we then import each CSV file into its corresponding SQL table.
+Handle any errors that arise during the import process, such as mismatched data types or encoding issues.
+Verification
+
+Step 3) Confirm the successful creation of tables by running a SELECT statement for each table.
+Verify the correctness of data import by running additional SELECT statements to check the imported data.
+Address any discrepancies or errors encountered during the verification proces
 
 Contributors:  Michael Elkabas and Heidi Chang
