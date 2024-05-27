@@ -27,6 +27,7 @@ Verify that each table has the correct data by running a SELECT statement for ea
 Our ERD:https://app.quickdatabasediagrams.com/#/d/IN5CRU
 
 For the pipeline, we performed the following series of steps: 
+
 Step 1) Data Engineering
 
 Design and create the database schema based on an Entity Relationship Diagram (ERD).
